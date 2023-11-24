@@ -1,6 +1,6 @@
-import { init, exit } from "myPackege";
+import { init, exit } from "./myPackege";
 
-init({ urls: "true" });
+init({ debug: true, url: "true" });
 
 exit(1);
 
